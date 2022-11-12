@@ -19,7 +19,7 @@
     width: 100%;
     background:
     linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.788)),
-    url(../img/Proyect-Ahorcado.png);
+    url(.../img/Proyect-Ahorcado.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -28,7 +28,7 @@
 .proyect-img-2 {
     background: 
     linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.788)),
-    url(../img/proyecto-Encript.png);
+    url(.../img/proyecto-Encript.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -65,7 +65,7 @@
     .card__img {
         background:
         linear-gradient(rgba(0, 0, 0, 0.356), rgba(0, 0, 0, 0.219)),
-        url(../img/Proyect-Ahorcado.png);
+        url(.../img/Proyect-Ahorcado.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -95,7 +95,7 @@
     .card:hover .card__img {
         transform: scale(1.2);
         background:
-        url(../img/Proyect-Ahorcado.png);
+        url(.../img/Proyect-Ahorcado.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -108,7 +108,7 @@
     .proyect-img-2 {
         background:
         linear-gradient(rgba(0, 0, 0, 0.356), rgba(0, 0, 0, 0.219)),
-        url(../img/proyecto-Encript.png);
+        url(.../img/proyecto-Encript.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -116,7 +116,7 @@
     
     .card:hover .proyect-img-2 {
         background:
-        url(../img/proyecto-Encript.png);
+        url(.../img/proyecto-Encript.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
