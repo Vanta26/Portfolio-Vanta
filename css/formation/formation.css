@@ -1,0 +1,9 @@
+.formation {
+    border-bottom: var(--border-light-color);
+}
+
+.formation__title::selection {
+    background-color: var(--secondary-color);
+    color: var(--primary-light-color);
+}
+

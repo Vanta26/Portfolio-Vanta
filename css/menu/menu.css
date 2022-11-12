@@ -1,0 +1,39 @@
+.menu_container {
+    background-color: var(--primary-dark-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.menu {
+    display: none;
+}
+
+@media (min-width: 992px) {
+    .menu {
+        display: block;
+    }
+
+    .menu__list {
+        display: flex;
+    }
+
+    .menu__item {
+        margin: 0 1.5rem;
+    }
+
+    .menu__link {
+        font-size: 1.5rem;
+        color: var(--light-color);
+        font-weight: 100;
+        transition: 150ms ease-in-out;
+        border-bottom: 1px solid transparent;
+        padding-bottom: 0.5rem;
+    }
+
+    .menu__link:hover {
+        color: var(--secondary-color);
+        border-bottom: 1px solid var(--secondary-color);
+    }
+}

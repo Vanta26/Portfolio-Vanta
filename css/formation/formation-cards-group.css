@@ -1,0 +1,22 @@
+.formation-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0; 
+}
+
+.formation__img {
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.205);
+}
+
+.formation__title {
+    font-size: 2rem;
+    color: var(--light-color);
+}
+
+.formation__title::selection {
+    background-color: var(--secondary-color);
+    color: var(--primary-light-color);
+}
+

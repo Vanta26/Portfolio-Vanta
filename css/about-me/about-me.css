@@ -1,0 +1,24 @@
+.about-me {
+    padding: 1rem 0;
+    border-bottom: var(--border-light-color);
+    margin-top: 1rem;
+}
+
+.about-me__title {
+    margin: 2rem 0;
+}
+
+.about-me__text {
+    font-size: 1.7rem;
+    color: var(--light-secondary-color);
+    margin-bottom: 2rem;
+}
+
+.about-me__title::selection {
+    background-color: var(--secondary-color);
+    color: var(--primary-light-color);
+}
+.about-me__text::selection {
+    background-color: var(--secondary-color);
+    color: var(--primary-light-color);
+}

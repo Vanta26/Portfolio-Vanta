@@ -1,0 +1,53 @@
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+}
+
+.contact__title {
+    color: var(--light-color);
+}
+
+.contact__text {
+    font-size: 1.5rem;
+    color: var(--light-secondary-color);
+    margin-bottom: 4rem;
+}
+
+.contact__subtitle {
+    font-size: 2.4rem;
+    color: var(--light-color);
+}
+
+.contact__subtitle::selection {
+    background-color: var(--secondary-color);
+    color: var(--primary-light-color);
+}
+
+.contact__text::selection {
+    background-color: var(--secondary-color);
+    color: var(--primary-light-color);
+}
+
+.contact__title::selection {
+    background-color: var(--secondary-color);
+    color: var(--primary-light-color);
+}
+
+@media (min-width: 1200px) {
+    .contact {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .contact__form {
+        padding: 5rem 0;
+        width: 50%;
+    }
+
+    .contact-container {
+        padding-top: 5rem;
+    }
+
+}

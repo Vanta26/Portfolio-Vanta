@@ -1,0 +1,88 @@
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.input, .textarea {
+    font-size: 2rem;
+    font-weight: 100;
+    font-family: 'Saira Condensed', sans-serif;
+    color: var(--light-color);
+    border: var(--border-light-color);
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    background-color: transparent;
+    text-transform: uppercase
+}
+
+.textarea {
+    resize: none;
+    height: 350px;
+    margin-bottom: 2rem;
+}
+
+.input-message-error {
+    padding-left: 1rem;
+    color: var(--secondary-color);
+    display: none;
+}
+
+.textarea, .input:focus {
+    outline: none;
+}
+.input::selection {
+    background-color: var(--secondary-color);
+    color: var(--primary-dark-color);
+}
+
+.textarea::selection {
+    background-color: var(--secondary-color);
+    color: var(--primary-dark-color);
+}
+
+.input::placeholder {
+    color: var(--light-secondary-color);
+}
+.textarea::placeholder {
+    color: var(--light-secondary-color);
+}
+
+
+
+.button-send-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-send {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 0.5rem 5rem;
+    color: var(--light-color);
+    background-color: var(--primary-dark-color);
+    border: none;
+    font-family: 'Saira Condensed', sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 150ms ease-out;
+}
+
+.button-send:hover {
+    color: var(--primary-light-color);
+    background-color: var(--secondary-color);
+}
+
+.message-send {
+    font-size: 2rem;
+    font-weight: 100;
+    color: var(--light-color);
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .button-send {
+        width: 100%;
+    }
+}

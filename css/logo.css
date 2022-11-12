@@ -1,0 +1,22 @@
+.logo {
+    font-size: 3rem;
+    font-weight: 100;
+    text-transform: capitalize;
+    color: var(--light-color);
+}
+
+.logo::first-letter {
+    color: var(--secondary-color);
+}
+
+.logo::selection {
+    background-color: var(--secondary-color);
+    color: #313552;
+}
+
+.logo-responsive {
+    font-size: 3rem;
+    font-weight: 100;
+    text-transform: capitalize;
+    color: var(--light-color);
+}

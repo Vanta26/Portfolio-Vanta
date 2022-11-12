@@ -1,0 +1,10 @@
+.proyects {
+    border-bottom: var(--border-light-color);
+    padding-bottom: 3rem;
+}
+
+.proyects::selection {
+    background-color: var(--secondary-color);
+    color: var(--prymary-light-color);
+}
+

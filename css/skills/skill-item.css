@@ -1,0 +1,47 @@
+.skills-container {
+    margin-bottom: 2rem;
+}
+
+.items-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    color: var(--light-color);
+    background-color: var(--primary-dark-color);
+    font-size: 1.5rem;
+    padding: 1rem;
+    width: 40%;
+    border: 1px solid transparent;
+}
+
+.item-name::selection {
+    background-color: var(--secondary-color);
+    color: var(--primary-light-color);
+}
+
+.item-icon {
+    font-size: 3.5rem;
+}
+
+@media (min-width: 1200px) {
+    .item {
+        width: 20%;
+        transition: 150ms ease-in-out;
+    }
+
+    .item:hover {
+        background-color: transparent;
+        border: var( --border-light-color);
+    }
+
+} 

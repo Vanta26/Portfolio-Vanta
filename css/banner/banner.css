@@ -1,0 +1,122 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 1rem 0;
+    margin-bottom: 10rem;
+}
+
+.banner-container{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.banner-title {
+    margin: 2rem 0;
+    font-size: 3rem;
+    color: var(--light-color);
+    line-height: 3rem;
+}
+
+.banner-info {
+    font-size: 1.5rem;
+    color: var(--light-secondary-color);
+}
+
+.banner-info::selection {
+    background-color: var(--secondary-color);
+    color: var(--primary-light-color);
+}
+.banner-title::selection {
+    background-color: var(--secondary-color);
+    color: var(--primary-light-color);
+}
+
+.banner__img {
+    height: 250px;
+    width: 300px;
+    margin: 0 auto;
+    border: var(--border-light-color);
+    padding: 0.5rem;
+}
+
+.banner__img::selection {
+    background-color: var(--secondary-color);
+}
+
+.banner-list {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 2rem 0;
+    border: var(--border-light-color);
+}
+
+.banner__item {
+    margin: 1rem;
+}
+
+.banner__link {
+    font-size: 2rem;
+    padding: 0.5rem 1rem ;
+    color: var(--light-color);
+    transition: 150ms ease-out;
+}
+
+.banner__link:hover {
+    color: var(--secondary-color);
+}
+
+/* /// Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .banner {
+        margin-bottom: 1rem;
+    }
+
+    .banner__img {
+        height: 350px;
+        width: 350px;
+    }
+
+    .banner-info {
+        margin-bottom: 2rem;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .banner__img {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .banner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner-container {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+        margin: 5rem 0;
+    }
+
+    
+    .banner__img {
+        height: 350px;
+        width: 350px;
+    }
+
+    .banner-list {
+        width: 50%;
+    }
+}

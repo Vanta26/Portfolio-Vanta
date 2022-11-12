@@ -1,0 +1,29 @@
+.footer {
+    height: 100px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-dark-color);
+    color: var(--light-color);
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.footer__text::first-letter {
+    color: var(--secondary-color);
+}
+
+.footer__text::selection {
+    background-color: var(--secondary-color);
+    color: #313552;
+}
+
+@media (min-width: 1200px) {
+    .footer {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+}
